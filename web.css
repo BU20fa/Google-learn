@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(255, 255, 255);
+    cursor:default;
+}
+#container{
+    position: relative;
+    width: 552px;
+    height: 640px;
+    margin: auto;
+    /* border: solid; */
+    
+}
+
+.box{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+
+}
+
+h1{
+    margin-top: 160px;
+    padding: 2%;
+    text-align: center;
+}
+
+.cyan{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70pt;
+    font-weight: 600;
+    color: #4285F4;
+}
+
+.red{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70pt;
+    font-weight: 600;
+    color: #EA4335;
+}
+
+.yellow{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70pt;
+    font-weight: 600;
+    color: #FBBC05;
+}
+
+.green{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70pt;
+    font-weight: 600;
+    color: #34A853;
+}
+
+input[type="text"]{
+    width: 79%;
+    height: 44px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:lighter;
+    font-size: 12pt;
+
+    margin: auto;
+    margin-left: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px 1px rgb(158, 157, 157);
+
+    background-image: url(/image/search.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+
+.links{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    
+}
+
+.box-circle{
+    width: 110px;
+    height: 110px;
+    background-color: white;
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.box-circle:hover{
+    background-color: #e8e8e9;
+    border-radius: 10px;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e1e3e1;
+    margin-bottom: -10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    position: fixed;
+    /* top: 553px; */
+    right: 15px;
+    bottom: 15px;
+
+    width: 155px;
+    height: 34px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 10pt;
+    color: #041E49;
+    padding-left: 1.1%;
+    background-color: #d3e3fd;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./image/pencil.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+    box-shadow: 0px 1px 4px 0px rgb(158, 157, 157);
+}
+
+.block:hover{
+    background-color: #BBC9DF;
+}
+
+img{
+    /* position: absolute; */
+    width: auto;
+    height: 25px;
+}
+
+.link-text{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.copyright{
+    position: fixed;
+    /* top: 553px; */
+    left: 15px;
+    bottom: 15px;
+
+    width: 200px;
+    height: 34px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 10pt;
+    color: #d3e3fd;
+    
+    background-color: #031a40;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 1px 4px 0px rgb(158, 157, 157);
+}
+
+.copyright:hover{
+    background-color: #d3e3fd;
+    color: #041E49;
+}
